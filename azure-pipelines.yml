@@ -4,10 +4,9 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- none
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: default
 
 steps:
 - script: echo Hello, world!
